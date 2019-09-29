@@ -1,9 +1,8 @@
 import React from 'react';
+import Title from '../common/Title';
 
 export default () => (
   <>
-    <h1>
-      Login page
-    </h1>
+    <Title title={"Login Page"} />
   </>
 );

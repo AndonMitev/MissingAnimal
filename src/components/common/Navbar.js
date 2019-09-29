@@ -1,17 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default () => (
   <nav>
     <ul>
       <li>
-        <a href="#">
+        <Link to="/login">
           Login
-        </a>
+        </Link>
       </li>
       <li>
-        <a href="#">
+        <Link to="/register">
           Register
-        </a>
+        </Link>
       </li>
     </ul>
   </nav>
